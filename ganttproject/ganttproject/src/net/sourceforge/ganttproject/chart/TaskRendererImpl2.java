@@ -110,7 +110,7 @@ public class TaskRendererImpl2 extends ChartRendererBase {
   class TaskActivityChartApi implements TaskActivitySceneBuilder.ChartApi {
     private final int myBarHeight;
     TaskActivityChartApi(int barHeight) {
-      myBarHeight = barHeight;
+      myBarHeight = barHeight+10;
     }
     @Override
     public Date getChartStartDate() {
